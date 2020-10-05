@@ -8,14 +8,14 @@ with open('requirements.txt') as requirements_file:
 
 
 setup(
-    name='MirahezeBot_Plugins',
+    name='sopel_plugins.adminlist',
     version='9.0.0',
     description='Adminlist plugin for Sopel',
     long_description=readme,
     long_description_content_type='text/markdown',  # This is important!
     author='MirahezeBot Contributors',
     author_email='bots@miraheze.org',
-    url='https://github.com/MirahezeBots/MirahezeBots',
+    url='https://github.com/MirahezeBots/sopel-adminlist',
     packages=find_packages('.'),
     include_package_data=True,
     install_requires=requirements,
