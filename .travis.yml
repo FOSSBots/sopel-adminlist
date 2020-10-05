@@ -11,9 +11,9 @@ install:
 - pip install flake8
 before_script:
 - python --version
-- pip show MirahezeBots_jsonparser
+- pip show sopel_plugins.adminlist
 script:
-- flake8 MirahezeBots_jsonparser --max-line-length 265 --exclude=__init__.py
+- flake8 sopel_plugins.adminlist --max-line-length 265 --exclude=__init__.py
 after_script:
 - pip freeze
 deploy:
