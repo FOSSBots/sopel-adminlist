@@ -9,7 +9,7 @@ with open('requirements.txt') as requirements_file:
 
 setup(
     name='sopel_plugins.adminlist',
-    version='1.0.2',
+    version='1.0.1',
     description='Adminlist plugin for Sopel',
     long_description=readme,
     long_description_content_type='text/markdown',  # This is important!
