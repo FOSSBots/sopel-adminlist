@@ -9,12 +9,12 @@ with open('requirements.txt') as requirements_file:
 
 setup(
     name='sopel_plugins.adminlist',
-    version='1.0.5',
+    version='1.0.6',
     description='Adminlist plugin for Sopel',
     long_description=readme,
     long_description_content_type='text/markdown',  # This is important!
     author='MirahezeBot Contributors',
-    author_email='bots@miraheze.org',
+    author_email='staff@mirahezebots.org',
     url='https://github.com/MirahezeBots/sopel-adminlist',
     packages=find_packages('.'),
     include_package_data=True,
