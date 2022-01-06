@@ -1,6 +1,6 @@
 """This plugin provides admin list and access level information."""
 
-from sopel.module import commands
+from sopel.plugin import commands
 
 
 @commands('botadmins', 'admins')
